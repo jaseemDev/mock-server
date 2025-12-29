@@ -1,272 +1,265 @@
 {
   "users": [
-  {
-    "id": 1,
-    "name": "John Doe",
-    "email": "john@example.com",
-    "phone": "123-456-7890",
-    "address": {
-      "street": "123 Main St",
-      "city": "Anytown",
-      "state": "CA",
-      "zip": "12345"
+    {
+      "id": 1,
+      "name": "John Doe",
+      "email": "john@example.com",
+      "phone": "123-456-7890",
+      "address": {
+        "street": "123 Main St",
+        "city": "Anytown",
+        "state": "CA",
+        "zip": "12345"
+      },
+      "company": {
+        "name": "Acme Corp",
+        "position": "Software Engineer"
+      },
+      "gender": "male",
+      "age": 30,
+      "isActive": true,
+      "dob": "1993-05-15",
+      "username": "johndoe",
+      "password": "password123"
     },
-    "company": {
-      "name": "Acme Corp",
-      "position": "Software Engineer"
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "email": "jane@example.com",
+      "phone": "234-567-8901",
+      "address": {
+        "street": "456 Oak Ave",
+        "city": "Springfield",
+        "state": "IL",
+        "zip": "62704"
+      },
+      "company": {
+        "name": "Globex Inc",
+        "position": "Project Manager"
+      },
+      "gender": "female",
+      "age": 28,
+      "isActive": true,
+      "dob": "1995-03-22",
+      "username": "janesmith",
+      "password": "pass456"
     },
-    "gender": "male",
-    "age": 30,
-    "isActive": true,
-    "dob": "1993-05-15",
-    "username": "johndoe",
-    "password": "password123"
-  },
-  {
-    "id": 2,
-    "name": "Jane Smith",
-    "email": "jane@example.com",
-    "phone": "234-567-8901",
-    "address": {
-      "street": "456 Oak Ave",
-      "city": "Springfield",
-      "state": "IL",
-      "zip": "62704"
+    {
+      "id": 3,
+      "name": "Michael Johnson",
+      "email": "michael@example.com",
+      "phone": "345-678-9012",
+      "address": {
+        "street": "789 Pine Rd",
+        "city": "Riverside",
+        "state": "TX",
+        "zip": "75001"
+      },
+      "company": {
+        "name": "Initech",
+        "position": "DevOps Engineer"
+      },
+      "gender": "male",
+      "age": 35,
+      "isActive": false,
+      "dob": "1988-09-12",
+      "username": "michaelj",
+      "password": "mike123"
     },
-    "company": {
-      "name": "Globex Inc",
-      "position": "Project Manager"
+    {
+      "id": 4,
+      "name": "Emily Davis",
+      "email": "emily@example.com",
+      "phone": "456-789-0123",
+      "address": {
+        "street": "321 Elm St",
+        "city": "Greenville",
+        "state": "SC",
+        "zip": "29601"
+      },
+      "company": {
+        "name": "Hooli",
+        "position": "UI/UX Designer"
+      },
+      "gender": "female",
+      "age": 26,
+      "isActive": true,
+      "dob": "1997-07-05",
+      "username": "emilyd",
+      "password": "emily789"
     },
-    "gender": "female",
-    "age": 28,
-    "isActive": true,
-    "dob": "1995-03-22",
-    "username": "janesmith",
-    "password": "pass456"
-  },
-  {
-    "id": 3,
-    "name": "Michael Johnson",
-    "email": "michael@example.com",
-    "phone": "345-678-9012",
-    "address": {
-      "street": "789 Pine Rd",
-      "city": "Riverside",
-      "state": "TX",
-      "zip": "75001"
+    {
+      "id": 5,
+      "name": "William Brown",
+      "email": "william@example.com",
+      "phone": "567-890-1234",
+      "address": {
+        "street": "654 Maple Ln",
+        "city": "Madison",
+        "state": "WI",
+        "zip": "53703"
+      },
+      "company": {
+        "name": "Vandelay Industries",
+        "position": "Business Analyst"
+      },
+      "gender": "male",
+      "age": 32,
+      "isActive": true,
+      "dob": "1991-12-10",
+      "username": "williamb",
+      "password": "will123"
     },
-    "company": {
-      "name": "Initech",
-      "position": "DevOps Engineer"
+    {
+      "id": 6,
+      "name": "Olivia Wilson",
+      "email": "olivia@example.com",
+      "phone": "678-901-2345",
+      "address": {
+        "street": "987 Cedar St",
+        "city": "Columbus",
+        "state": "OH",
+        "zip": "43085"
+      },
+      "company": {
+        "name": "Stark Industries",
+        "position": "Marketing Manager"
+      },
+      "gender": "female",
+      "age": 29,
+      "isActive": false,
+      "dob": "1994-02-18",
+      "username": "oliviaw",
+      "password": "oli456"
     },
-    "gender": "male",
-    "age": 35,
-    "isActive": false,
-    "dob": "1988-09-12",
-    "username": "michaelj",
-    "password": "mike123"
-  },
-  {
-    "id": 4,
-    "name": "Emily Davis",
-    "email": "emily@example.com",
-    "phone": "456-789-0123",
-    "address": {
-      "street": "321 Elm St",
-      "city": "Greenville",
-      "state": "SC",
-      "zip": "29601"
+    {
+      "id": 7,
+      "name": "James Miller",
+      "email": "james@example.com",
+      "phone": "789-012-3456",
+      "address": {
+        "street": "159 Birch Blvd",
+        "city": "Austin",
+        "state": "TX",
+        "zip": "73301"
+      },
+      "company": {
+        "name": "Umbrella Corp",
+        "position": "QA Engineer"
+      },
+      "gender": "male",
+      "age": 27,
+      "isActive": true,
+      "dob": "1996-11-08",
+      "username": "jamesm",
+      "password": "jm123"
     },
-    "company": {
-      "name": "Hooli",
-      "position": "UI/UX Designer"
+    {
+      "id": 8,
+      "name": "Sophia Martinez",
+      "email": "sophia@example.com",
+      "phone": "890-123-4567",
+      "address": {
+        "street": "753 Walnut Ave",
+        "city": "Orlando",
+        "state": "FL",
+        "zip": "32801"
+      },
+      "company": {
+        "name": "Wayne Enterprises",
+        "position": "HR Specialist"
+      },
+      "gender": "female",
+      "age": 31,
+      "isActive": true,
+      "dob": "1992-08-30",
+      "username": "sophiam",
+      "password": "sophia321"
     },
-    "gender": "female",
-    "age": 26,
-    "isActive": true,
-    "dob": "1997-07-05",
-    "username": "emilyd",
-    "password": "emily789"
-  },
-  {
-    "id": 5,
-    "name": "William Brown",
-    "email": "william@example.com",
-    "phone": "567-890-1234",
-    "address": {
-      "street": "654 Maple Ln",
-      "city": "Madison",
-      "state": "WI",
-      "zip": "53703"
+    {
+      "id": 9,
+      "name": "Daniel Anderson",
+      "email": "daniel@example.com",
+      "phone": "901-234-5678",
+      "address": {
+        "street": "852 Spruce St",
+        "city": "Seattle",
+        "state": "WA",
+        "zip": "98101"
+      },
+      "company": {
+        "name": "Oscorp",
+        "position": "Data Scientist"
+      },
+      "gender": "male",
+      "age": 34,
+      "isActive": false,
+      "dob": "1989-06-20",
+      "username": "daniela",
+      "password": "dan123"
     },
-    "company": {
-      "name": "Vandelay Industries",
-      "position": "Business Analyst"
-    },
-    "gender": "male",
-    "age": 32,
-    "isActive": true,
-    "dob": "1991-12-10",
-    "username": "williamb",
-    "password": "will123"
-  },
-  {
-    "id": 6,
-    "name": "Olivia Wilson",
-    "email": "olivia@example.com",
-    "phone": "678-901-2345",
-    "address": {
-      "street": "987 Cedar St",
-      "city": "Columbus",
-      "state": "OH",
-      "zip": "43085"
-    },
-    "company": {
-      "name": "Stark Industries",
-      "position": "Marketing Manager"
-    },
-    "gender": "female",
-    "age": 29,
-    "isActive": false,
-    "dob": "1994-02-18",
-    "username": "oliviaw",
-    "password": "oli456"
-  },
-  {
-    "id": 7,
-    "name": "James Miller",
-    "email": "james@example.com",
-    "phone": "789-012-3456",
-    "address": {
-      "street": "159 Birch Blvd",
-      "city": "Austin",
-      "state": "TX",
-      "zip": "73301"
-    },
-    "company": {
-      "name": "Umbrella Corp",
-      "position": "QA Engineer"
-    },
-    "gender": "male",
-    "age": 27,
-    "isActive": true,
-    "dob": "1996-11-08",
-    "username": "jamesm",
-    "password": "jm123"
-  },
-  {
-    "id": 8,
-    "name": "Sophia Martinez",
-    "email": "sophia@example.com",
-    "phone": "890-123-4567",
-    "address": {
-      "street": "753 Walnut Ave",
-      "city": "Orlando",
-      "state": "FL",
-      "zip": "32801"
-    },
-    "company": {
-      "name": "Wayne Enterprises",
-      "position": "HR Specialist"
-    },
-    "gender": "female",
-    "age": 31,
-    "isActive": true,
-    "dob": "1992-08-30",
-    "username": "sophiam",
-    "password": "sophia321"
-  },
-  {
-    "id": 9,
-    "name": "Daniel Anderson",
-    "email": "daniel@example.com",
-    "phone": "901-234-5678",
-    "address": {
-      "street": "852 Spruce St",
-      "city": "Seattle",
-      "state": "WA",
-      "zip": "98101"
-    },
-    "company": {
-      "name": "Oscorp",
-      "position": "Data Scientist"
-    },
-    "gender": "male",
-    "age": 34,
-    "isActive": false,
-    "dob": "1989-06-20",
-    "username": "daniela",
-    "password": "dan123"
-  },
-  {
-    "id": 10,
-    "name": "Ava Thompson",
-    "email": "ava@example.com",
-    "phone": "012-345-6789",
-    "address": {
-      "street": "456 Willow Rd",
-      "city": "Denver",
-      "state": "CO",
-      "zip": "80203"
-    },
-    "company": {
-      "name": "Wonka Industries",
-      "position": "Product Manager"
-    },
-    "gender": "female",
-    "age": 28,
-    "isActive": true,
-    "dob": "1995-04-12",
-    "username": "avat",
-    "password": "ava789"
-  }
-],
-"categories": [
+    {
+      "id": 10,
+      "name": "Ava Thompson",
+      "email": "ava@example.com",
+      "phone": "012-345-6789",
+      "address": {
+        "street": "456 Willow Rd",
+        "city": "Denver",
+        "state": "CO",
+        "zip": "80203"
+      },
+      "company": {
+        "name": "Wonka Industries",
+        "position": "Product Manager"
+      },
+      "gender": "female",
+      "age": 28,
+      "isActive": true,
+      "dob": "1995-04-12",
+      "username": "avat",
+      "password": "ava789"
+    }
+  ],
+  "categories": [
     { "id": 1, "name": "Electronics" },
-    { "id": 2, "name": "Clothing" },
-    { "id": 3, "name": "Home & Kitchen" }
+    { "id": 2, "name": "Men" },
+    { "id": 3, "name": "Women" },
+    { "id": 4, "name": "Jewellery" }
   ],
-  "subcategories": [
-    { "id": 1, "categoryId": 1, "name": "Mobile Phones" },
-    { "id": 2, "categoryId": 1, "name": "Laptops" },
-    { "id": 3, "categoryId": 1, "name": "Headphones" },
-    { "id": 4, "categoryId": 2, "name": "Men's Clothing" },
-    { "id": 5, "categoryId": 2, "name": "Women's Clothing" },
-    { "id": 6, "categoryId": 3, "name": "Kitchen Appliances" },
-    { "id": 7, "categoryId": 3, "name": "Furniture" }
-  ],
+
   "products": [
     {
       "id": 1,
       "name": "iPhone 15",
-      "subcategoryId": 1,
+      "categoryId": 1,
       "price": 1199.99,
       "description": "Latest Apple smartphone with A17 chip.",
-      "stock": 25,
+      "stock": 20,
       "image": "https://example.com/images/iphone15.jpg"
     },
     {
       "id": 2,
       "name": "Samsung Galaxy S23",
-      "subcategoryId": 1,
+      "categoryId": 1,
       "price": 999.99,
       "description": "Flagship Samsung phone with AMOLED display.",
-      "stock": 30,
+      "stock": 25,
       "image": "https://example.com/images/galaxy-s23.jpg"
     },
     {
       "id": 3,
       "name": "MacBook Pro 16\"",
-      "subcategoryId": 2,
+      "categoryId": 1,
       "price": 2499.99,
       "description": "Powerful laptop with M2 Max chip.",
-      "stock": 15,
+      "stock": 10,
       "image": "https://example.com/images/macbook-pro.jpg"
     },
     {
       "id": 4,
       "name": "Sony WH-1000XM5",
-      "subcategoryId": 3,
+      "categoryId": 1,
       "price": 399.99,
       "description": "Noise-cancelling wireless headphones.",
       "stock": 50,
@@ -274,57 +267,192 @@
     },
     {
       "id": 5,
+      "name": "AirPods Pro",
+      "categoryId": 1,
+      "price": 249.99,
+      "description": "Wireless noise-cancelling earbuds.",
+      "stock": 30,
+      "image": "https://example.com/images/airpods-pro.jpg"
+    },
+    {
+      "id": 6,
       "name": "Men's T-Shirt",
-      "subcategoryId": 4,
+      "categoryId": 2,
       "price": 19.99,
       "description": "Comfortable cotton t-shirt.",
       "stock": 100,
       "image": "https://example.com/images/mens-tshirt.jpg"
     },
     {
-      "id": 6,
+      "id": 7,
+      "name": "Men's Jeans",
+      "categoryId": 2,
+      "price": 49.99,
+      "description": "Classic denim jeans.",
+      "stock": 60,
+      "image": "https://example.com/images/mens-jeans.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Men's Hoodie",
+      "categoryId": 2,
+      "price": 39.99,
+      "description": "Warm and cozy hoodie.",
+      "stock": 40,
+      "image": "https://example.com/images/mens-hoodie.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Men's Sneakers",
+      "categoryId": 2,
+      "price": 79.99,
+      "description": "Casual running shoes.",
+      "stock": 50,
+      "image": "https://example.com/images/mens-sneakers.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Men's Jacket",
+      "categoryId": 2,
+      "price": 99.99,
+      "description": "Stylish winter jacket.",
+      "stock": 30,
+      "image": "https://example.com/images/mens-jacket.jpg"
+    },
+    {
+      "id": 11,
       "name": "Women's Dress",
-      "subcategoryId": 5,
+      "categoryId": 3,
       "price": 49.99,
       "description": "Elegant evening dress.",
       "stock": 40,
       "image": "https://example.com/images/womens-dress.jpg"
     },
     {
-      "id": 7,
-      "name": "Blender",
-      "subcategoryId": 6,
-      "price": 59.99,
-      "description": "Multi-purpose kitchen blender.",
-      "stock": 60,
-      "image": "https://example.com/images/blender.jpg"
-    },
-    {
-      "id": 8,
-      "name": "Coffee Table",
-      "subcategoryId": 7,
-      "price": 129.99,
-      "description": "Stylish wooden coffee table.",
-      "stock": 20,
-      "image": "https://example.com/images/coffee-table.jpg"
-    },
-    {
-      "id": 9,
-      "name": "AirPods Pro",
-      "subcategoryId": 3,
-      "price": 249.99,
-      "description": "Wireless noise-cancelling earbuds.",
-      "stock": 35,
-      "image": "https://example.com/images/airpods-pro.jpg"
-    },
-    {
-      "id": 10,
-      "name": "Laptop Sleeve",
-      "subcategoryId": 2,
+      "id": 12,
+      "name": "Women's Top",
+      "categoryId": 3,
       "price": 29.99,
-      "description": "Protective laptop sleeve for 16-inch laptops.",
+      "description": "Casual cotton top.",
+      "stock": 60,
+      "image": "https://example.com/images/womens-top.jpg"
+    },
+    {
+      "id": 13,
+      "name": "Women's Skirt",
+      "categoryId": 3,
+      "price": 39.99,
+      "description": "Pleated midi skirt.",
       "stock": 50,
-      "image": "https://example.com/images/laptop-sleeve.jpg"
+      "image": "https://example.com/images/womens-skirt.jpg"
+    },
+    {
+      "id": 14,
+      "name": "Women's Sneakers",
+      "categoryId": 3,
+      "price": 69.99,
+      "description": "Lightweight running shoes.",
+      "stock": 45,
+      "image": "https://example.com/images/womens-sneakers.jpg"
+    },
+    {
+      "id": 15,
+      "name": "Women's Handbag",
+      "categoryId": 3,
+      "price": 89.99,
+      "description": "Stylish leather handbag.",
+      "stock": 30,
+      "image": "https://example.com/images/womens-handbag.jpg"
+    },
+    {
+      "id": 16,
+      "name": "Gold Necklace",
+      "categoryId": 4,
+      "price": 299.99,
+      "description": "Elegant 18k gold necklace.",
+      "stock": 20,
+      "image": "https://example.com/images/gold-necklace.jpg"
+    },
+    {
+      "id": 17,
+      "name": "Silver Ring",
+      "categoryId": 4,
+      "price": 79.99,
+      "description": "Sterling silver ring.",
+      "stock": 50,
+      "image": "https://example.com/images/silver-ring.jpg"
+    },
+    {
+      "id": 18,
+      "name": "Diamond Earrings",
+      "categoryId": 4,
+      "price": 499.99,
+      "description": "Sparkling diamond earrings.",
+      "stock": 15,
+      "image": "https://example.com/images/diamond-earrings.jpg"
+    },
+    {
+      "id": 19,
+      "name": "Gold Bracelet",
+      "categoryId": 4,
+      "price": 199.99,
+      "description": "18k gold bracelet.",
+      "stock": 25,
+      "image": "https://example.com/images/gold-bracelet.jpg"
+    },
+    {
+      "id": 20,
+      "name": "Pearl Necklace",
+      "categoryId": 4,
+      "price": 149.99,
+      "description": "Classic pearl necklace.",
+      "stock": 30,
+      "image": "https://example.com/images/pearl-necklace.jpg"
+    },
+    {
+      "id": 21,
+      "name": "Smartwatch",
+      "categoryId": 1,
+      "price": 349.99,
+      "description": "Fitness tracking smartwatch.",
+      "stock": 35,
+      "image": "https://example.com/images/smartwatch.jpg"
+    },
+    {
+      "id": 22,
+      "name": "Tablet",
+      "categoryId": 1,
+      "price": 599.99,
+      "description": "10-inch Android tablet.",
+      "stock": 20,
+      "image": "https://example.com/images/tablet.jpg"
+    },
+    {
+      "id": 23,
+      "name": "Men's Belt",
+      "categoryId": 2,
+      "price": 25.99,
+      "description": "Leather belt for casual wear.",
+      "stock": 50,
+      "image": "https://example.com/images/mens-belt.jpg"
+    },
+    {
+      "id": 24,
+      "name": "Women's Scarf",
+      "categoryId": 3,
+      "price": 19.99,
+      "description": "Soft wool scarf.",
+      "stock": 60,
+      "image": "https://example.com/images/womens-scarf.jpg"
+    },
+    {
+      "id": 25,
+      "name": "Men's Watch",
+      "categoryId": 2,
+      "price": 149.99,
+      "description": "Classic analog watch.",
+      "stock": 25,
+      "image": "https://example.com/images/mens-watch.jpg"
     }
   ]
 }
