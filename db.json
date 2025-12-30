@@ -454,5 +454,6 @@
       "stock": 25,
       "image": "https://example.com/images/mens-watch.jpg"
     }
-  ]
+  ],
+  "subscribers": []
 }
