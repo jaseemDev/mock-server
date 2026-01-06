@@ -462,6 +462,25 @@
       "description": "Create responsive banner for homepage",
       "status": { "_id": "687c87615a1f8a059bacea4a", "name": "New" },
       "priority": "high",
+      "project": {
+        "_id": "68ec97682ce4d1a7f5994009",
+        "name": "Website Redesign",
+        "description": "Complete overhaul of the company website",
+        "createdAt": "2025-08-01T10:00:00.000Z",
+        "updatedAt": "2025-08-15T12:00:00.000Z",
+        "teamMembers": [
+          {
+            "_id": "686cd0d0c7b0203a6221c037",
+            "name": "jaseem",
+            "email": "jaseem@gmail.com"
+          },
+          {
+            "_id": "686cd0d0c7b0203a6221c038",
+            "name": "Ameen",
+            "email": "ameen@gmail.com"
+          }
+        ]
+      },
       "tags": [
         {
           "_id": "687c9e32d7ebba1adae36ee8",
@@ -490,87 +509,67 @@
       "isActive": true,
       "isDeleted": false,
       "isSelf": false,
-      "comments": [],
+      "comments": [
+        {
+          "_id": "68a6b0e115e14e922356ff01",
+          "comment": "Initial draft completed.",
+          "createdBy": {
+            "_id": "686cd0d0c7b0203a6221c037",
+            "name": "jaseem",
+            "email": "jaseem@gmail.com"
+          },
+          "createdAt": "2025-08-15T14:30:00.000Z"
+        },
+        {
+          "_id": "68a6b0e115e14e922356ff02",
+          "comment": "Reviewed and approved.",
+          "createdBy": {
+            "_id": "68a038b8a27dc0205e9105fe",
+            "name": "John Doe",
+            "email": "johndoe@gmail.com"
+          },
+          "createdAt": "2025-08-15T14:30:00.000Z"
+        }
+      ],
       "createdAt": "2025-08-20T08:15:10.000Z",
       "updatedAt": "2025-12-26T09:10:00.000Z",
       "__v": 0
     },
     {
       "_id": "68a6b0e115e14e922356fe02",
-      "title": "API integration for offers",
-      "description": "Integrate offers API with frontend",
-      "status": { "_id": "687c87615a1f8a059bacea4b", "name": "In Progress" },
+      "title": "Implement login form validation",
+      "description": "Add client-side validation using Yup",
+      "status": { "_id": "687c87615a1f8a059bacea4a", "name": "New" },
       "priority": "medium",
+      "project": {
+        "_id": "68ec97682ce4d1a7f5994010",
+        "name": "Auth Module",
+        "description": "Authentication and authorization features",
+        "createdAt": "2025-08-05T09:00:00.000Z",
+        "updatedAt": "2025-08-18T11:30:00.000Z",
+        "teamMembers": [
+          {
+            "_id": "686cd0d0c7b0203a6221c037",
+            "name": "jaseem",
+            "email": "jaseem@gmail.com"
+          },
+          {
+            "_id": "686cd0d0c7b0203a6221c039",
+            "name": "Rahul",
+            "email": "rahul@gmail.com"
+          }
+        ]
+      },
       "tags": [
         {
-          "_id": "68ec97432ce4d1a7f5994003",
-          "label": "feature",
+          "_id": "687c9e32d7ebba1adae36ee9",
+          "label": "frontend",
           "color": "#000000",
           "type": "task"
-        }
-      ],
-      "assignedTo": {
-        "_id": "686cd0d0c7b0203a6221c038",
-        "name": "Ameen",
-        "email": "ameen@gmail.com"
-      },
-      "dueDate": "2025-07-28T20:00:00.000Z",
-      "createdBy": {
-        "_id": "68a038b8a27dc0205e9105ff",
-        "name": "Sarah Lee",
-        "email": "sarah@gmail.com"
-      },
-      "isActive": true,
-      "isDeleted": false,
-      "isSelf": false,
-      "comments": [],
-      "createdAt": "2025-08-21T06:00:00.000Z",
-      "updatedAt": "2025-12-26T10:00:00.000Z",
-      "__v": 0
-    },
-    {
-      "_id": "68a6b0e115e14e922356fe03",
-      "title": "Fix login validation",
-      "description": "Handle invalid credentials properly",
-      "status": { "_id": "687c87615a1f8a059bacea4c", "name": "Completed" },
-      "priority": "high",
-      "tags": [
+        },
         {
-          "_id": "687c9e32d7ebba1adae36ee8",
-          "label": "bug",
-          "color": "#000000",
-          "type": "task"
-        }
-      ],
-      "assignedTo": {
-        "_id": "686cd0d0c7b0203a6221c039",
-        "name": "Rahul",
-        "email": "rahul@gmail.com"
-      },
-      "dueDate": "2025-07-18T20:00:00.000Z",
-      "createdBy": {
-        "_id": "68a038b8a27dc0205e9105fe",
-        "name": "John Doe",
-        "email": "johndoe@gmail.com"
-      },
-      "isActive": true,
-      "isDeleted": false,
-      "isSelf": false,
-      "comments": [],
-      "createdAt": "2025-08-18T04:45:00.000Z",
-      "updatedAt": "2025-12-25T11:00:00.000Z",
-      "__v": 0
-    },
-    {
-      "_id": "68a6b0e115e14e922356fe04",
-      "title": "Create admin dashboard",
-      "description": "Build dashboard charts and widgets",
-      "status": { "_id": "687c87615a1f8a059bacea4b", "name": "In Progress" },
-      "priority": "high",
-      "tags": [
-        {
-          "_id": "68ec97682ce4d1a7f5994009",
-          "label": "dashboard",
+          "_id": "687c9e32d7ebba1adae36eea",
+          "label": "auth",
           "color": "#000000",
           "type": "project"
         }
@@ -580,73 +579,7 @@
         "name": "jaseem",
         "email": "jaseem@gmail.com"
       },
-      "dueDate": "2025-08-05T20:00:00.000Z",
-      "createdBy": {
-        "_id": "68a038b8a27dc0205e9105ff",
-        "name": "Sarah Lee",
-        "email": "sarah@gmail.com"
-      },
-      "isActive": true,
-      "isDeleted": false,
-      "isSelf": false,
-      "comments": [],
-      "createdAt": "2025-08-22T09:30:00.000Z",
-      "updatedAt": "2025-12-26T12:00:00.000Z",
-      "__v": 0
-    },
-    {
-      "_id": "68a6b0e115e14e922356fe05",
-      "title": "Optimize database queries",
-      "description": "Improve performance for reports",
-      "status": { "_id": "687c87615a1f8a059bacea4a", "name": "New" },
-      "priority": "low",
-      "tags": [
-        {
-          "_id": "68ec97432ce4d1a7f5994003",
-          "label": "performance",
-          "color": "#000000",
-          "type": "task"
-        }
-      ],
-      "assignedTo": {
-        "_id": "686cd0d0c7b0203a6221c040",
-        "name": "Anu",
-        "email": "anu@gmail.com"
-      },
-      "dueDate": "2025-08-10T20:00:00.000Z",
-      "createdBy": {
-        "_id": "68a038b8a27dc0205e910600",
-        "name": "Michael Scott",
-        "email": "michael@gmail.com"
-      },
-      "isActive": true,
-      "isDeleted": false,
-      "isSelf": false,
-      "comments": [],
-      "createdAt": "2025-08-23T07:10:00.000Z",
-      "updatedAt": "2025-12-26T13:00:00.000Z",
-      "__v": 0
-    },
-    {
-      "_id": "68a6b0e115e14e922356fe06",
-      "title": "Update privacy policy page",
-      "description": "Add GDPR compliance content",
-      "status": { "_id": "687c87615a1f8a059bacea4c", "name": "Completed" },
-      "priority": "medium",
-      "tags": [
-        {
-          "_id": "687c9e32d7ebba1adae36ee8",
-          "label": "content",
-          "color": "#000000",
-          "type": "task"
-        }
-      ],
-      "assignedTo": {
-        "_id": "686cd0d0c7b0203a6221c041",
-        "name": "Fathima",
-        "email": "fathima@gmail.com"
-      },
-      "dueDate": "2025-07-15T20:00:00.000Z",
+      "dueDate": "2025-07-28T20:00:00.000Z",
       "createdBy": {
         "_id": "68a038b8a27dc0205e9105fe",
         "name": "John Doe",
@@ -656,19 +589,127 @@
       "isDeleted": false,
       "isSelf": false,
       "comments": [],
-      "createdAt": "2025-08-15T05:20:00.000Z",
-      "updatedAt": "2025-12-24T10:30:00.000Z",
+      "createdAt": "2025-08-22T09:10:00.000Z",
+      "updatedAt": "2025-12-26T09:20:00.000Z",
       "__v": 0
     },
     {
-      "_id": "68a6b0e115e14e922356fe07",
-      "title": "Setup CI/CD pipeline",
-      "description": "Configure GitHub Actions",
+      "_id": "68a6b0e115e14e922356fe03",
+      "title": "Create API documentation",
+      "description": "Swagger documentation for task APIs",
       "status": { "_id": "687c87615a1f8a059bacea4b", "name": "In Progress" },
-      "priority": "high",
+      "priority": "low",
+      "project": {
+        "_id": "68ec97682ce4d1a7f5994011",
+        "name": "Backend Services",
+        "description": "Microservices for core features",
+        "createdAt": "2025-07-20T08:00:00.000Z",
+        "updatedAt": "2025-08-10T10:00:00.000Z",
+        "teamMembers": [
+          {
+            "_id": "686cd0d0c7b0203a6221c040",
+            "name": "Ameen",
+            "email": "ameen@gmail.com"
+          }
+        ]
+      },
       "tags": [
         {
-          "_id": "68ec97682ce4d1a7f5994010",
+          "_id": "687c9e32d7ebba1adae36eeb",
+          "label": "backend",
+          "color": "#000000",
+          "type": "task"
+        }
+      ],
+      "assignedTo": {
+        "_id": "686cd0d0c7b0203a6221c040",
+        "name": "Ameen",
+        "email": "ameen@gmail.com"
+      },
+      "dueDate": "2025-07-30T20:00:00.000Z",
+      "createdBy": {
+        "_id": "68a038b8a27dc0205e9105fe",
+        "name": "John Doe",
+        "email": "johndoe@gmail.com"
+      },
+      "isActive": true,
+      "isDeleted": false,
+      "isSelf": false,
+      "comments": [],
+      "createdAt": "2025-08-18T07:45:00.000Z",
+      "updatedAt": "2025-12-26T09:25:00.000Z",
+      "__v": 0
+    },
+    {
+      "_id": "68a6b0e115e14e922356fe04",
+      "title": "Optimize database queries",
+      "description": "Improve performance for reports module",
+      "status": { "_id": "687c87615a1f8a059bacea4c", "name": "Completed" },
+      "priority": "high",
+      "project": {
+        "_id": "68ec97682ce4d1a7f5994012",
+        "name": "Reporting Engine",
+        "description": "Analytics and reporting tools",
+        "createdAt": "2025-06-15T07:00:00.000Z",
+        "updatedAt": "2025-08-12T09:00:00.000Z",
+        "teamMembers": [
+          {
+            "_id": "686cd0d0c7b0203a6221c041",
+            "name": "Fahad",
+            "email": "fahad@gmail.com"
+          }
+        ]
+      },
+      "tags": [
+        {
+          "_id": "687c9e32d7ebba1adae36eec",
+          "label": "performance",
+          "color": "#000000",
+          "type": "task"
+        }
+      ],
+      "assignedTo": {
+        "_id": "686cd0d0c7b0203a6221c041",
+        "name": "Fahad",
+        "email": "fahad@gmail.com"
+      },
+      "dueDate": "2025-07-20T20:00:00.000Z",
+      "createdBy": {
+        "_id": "68a038b8a27dc0205e9105fe",
+        "name": "John Doe",
+        "email": "johndoe@gmail.com"
+      },
+      "isActive": true,
+      "isDeleted": false,
+      "isSelf": false,
+      "comments": [],
+      "createdAt": "2025-07-10T06:30:00.000Z",
+      "updatedAt": "2025-12-26T09:30:00.000Z",
+      "__v": 0
+    },
+    {
+      "_id": "68a6b0e115e14e922356fe05",
+      "title": "Set up CI/CD pipeline",
+      "description": "Automate build and deployment",
+      "status": { "_id": "687c87615a1f8a059bacea4b", "name": "In Progress" },
+      "priority": "high",
+      "project": {
+        "_id": "68ec97682ce4d1a7f5994013",
+        "name": "DevOps Setup",
+        "description": "Infrastructure and automation",
+        "createdAt": "2025-07-01T09:00:00.000Z",
+        "updatedAt": "2025-08-16T12:00:00.000Z",
+        "teamMembers": [
+          {
+            "_id": "686cd0d0c7b0203a6221c042",
+            "name": "Nithin",
+            "email": "nithin@gmail.com"
+          }
+        ]
+      },
+      "tags": [
+        {
+          "_id": "687c9e32d7ebba1adae36eed",
           "label": "devops",
           "color": "#000000",
           "type": "task"
@@ -676,109 +717,10 @@
       ],
       "assignedTo": {
         "_id": "686cd0d0c7b0203a6221c042",
-        "name": "Arjun",
-        "email": "arjun@gmail.com"
+        "name": "Nithin",
+        "email": "nithin@gmail.com"
       },
-      "dueDate": "2025-08-01T20:00:00.000Z",
-      "createdBy": {
-        "_id": "68a038b8a27dc0205e910601",
-        "name": "Dwight Schrute",
-        "email": "dwight@gmail.com"
-      },
-      "isActive": true,
-      "isDeleted": false,
-      "isSelf": false,
-      "comments": [],
-      "createdAt": "2025-08-21T11:00:00.000Z",
-      "updatedAt": "2025-12-26T14:00:00.000Z",
-      "__v": 0
-    },
-    {
-      "_id": "68a6b0e115e14e922356fe08",
-      "title": "Add notification service",
-      "description": "Email and push notifications",
-      "status": { "_id": "687c87615a1f8a059bacea4a", "name": "New" },
-      "priority": "medium",
-      "tags": [
-        {
-          "_id": "68ec97432ce4d1a7f5994003",
-          "label": "feature",
-          "color": "#000000",
-          "type": "task"
-        }
-      ],
-      "assignedTo": {
-        "_id": "686cd0d0c7b0203a6221c037",
-        "name": "jaseem",
-        "email": "jaseem@gmail.com"
-      },
-      "dueDate": "2025-08-15T20:00:00.000Z",
-      "createdBy": {
-        "_id": "68a038b8a27dc0205e9105ff",
-        "name": "Sarah Lee",
-        "email": "sarah@gmail.com"
-      },
-      "isActive": true,
-      "isDeleted": false,
-      "isSelf": false,
-      "comments": [],
-      "createdAt": "2025-08-24T06:40:00.000Z",
-      "updatedAt": "2025-12-26T15:00:00.000Z",
-      "__v": 0
-    },
-    {
-      "_id": "68a6b0e115e14e922356fe09",
-      "title": "User role management",
-      "description": "Add role-based access control",
-      "status": { "_id": "687c87615a1f8a059bacea4b", "name": "In Progress" },
-      "priority": "high",
-      "tags": [
-        {
-          "_id": "68ec97682ce4d1a7f5994011",
-          "label": "security",
-          "color": "#000000",
-          "type": "task"
-        }
-      ],
-      "assignedTo": {
-        "_id": "686cd0d0c7b0203a6221c043",
-        "name": "Sandeep",
-        "email": "sandeep@gmail.com"
-      },
-      "dueDate": "2025-08-20T20:00:00.000Z",
-      "createdBy": {
-        "_id": "68a038b8a27dc0205e910602",
-        "name": "Pam Beesly",
-        "email": "pam@gmail.com"
-      },
-      "isActive": true,
-      "isDeleted": false,
-      "isSelf": false,
-      "comments": [],
-      "createdAt": "2025-08-25T07:50:00.000Z",
-      "updatedAt": "2025-12-26T16:00:00.000Z",
-      "__v": 0
-    },
-    {
-      "_id": "68a6b0e115e14e922356fe10",
-      "title": "Prepare release notes",
-      "description": "Document changes for v1.2",
-      "status": { "_id": "687c87615a1f8a059bacea4c", "name": "Completed" },
-      "priority": "low",
-      "tags": [
-        {
-          "_id": "687c9e32d7ebba1adae36ee8",
-          "label": "documentation",
-          "color": "#000000",
-          "type": "task"
-        }
-      ],
-      "assignedTo": {
-        "_id": "686cd0d0c7b0203a6221c044",
-        "name": "Neha",
-        "email": "neha@gmail.com"
-      },
-      "dueDate": "2025-07-10T20:00:00.000Z",
+      "dueDate": "2025-08-05T20:00:00.000Z",
       "createdBy": {
         "_id": "68a038b8a27dc0205e9105fe",
         "name": "John Doe",
@@ -788,9 +730,39 @@
       "isDeleted": false,
       "isSelf": false,
       "comments": [],
-      "createdAt": "2025-08-10T03:30:00.000Z",
-      "updatedAt": "2025-12-23T09:00:00.000Z",
+      "createdAt": "2025-08-02T10:00:00.000Z",
+      "updatedAt": "2025-12-26T09:35:00.000Z",
       "__v": 0
+    }
+  ],
+  "projects": [
+    {
+      "_id": "68ec97682ce4d1a7f5994009",
+      "name": "Website Redesign",
+      "description": "Complete overhaul of the company website",
+      "createdAt": "2025-08-01T10:00:00.000Z",
+      "updatedAt": "2025-08-15T12:00:00.000Z",
+      "teamMembers": [
+        {
+          "_id": "686cd0d0c7b0203a6221c037",
+          "name": "jaseem",
+          "email": "jaseem@gmail.com"
+        }
+      ]
+    },
+    {
+      "_id": "68ec97682ce4d1a7f5994010",
+      "name": "Auth Module",
+      "description": "Authentication and authorization features",
+      "createdAt": "2025-08-05T09:00:00.000Z",
+      "updatedAt": "2025-08-18T11:30:00.000Z",
+      "teamMembers": [
+        {
+          "_id": "686cd0d0c7b0203a6221c037",
+          "name": "jaseem",
+          "email": "jaseem@gmail.com"
+        }
+      ]
     }
   ]
 }
